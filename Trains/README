@@ -1,0 +1,16 @@
+PURPOSE:
+This tool is a program that simulates a switching station for trains.
+It will start with a provided amount of trains, each with a provided amount of cars. The cars have a specific size to each.
+The value of the train is the sum of the position of the cars multiplied by its size. 
+Each simulation will toss three dice, one for the donor train and receiving train, and one for which end of the donor train the car will be taken from. 
+The car is added to the receiving train the value of that train is recalculated.
+The simulation ends either with an empty train or no more turns.
+BUILD INFO:
+Build this program using
+'make comp'
+INPUT:
+The simulation takes a random number from an outside source. (in this case randGen.pl)
+USAGE:
+trains (NUMTRAINS) (NUMCARS) (NUMTURNS)
+OUTPUT:
+Console prints out the value of each train at each simulation.
