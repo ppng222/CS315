@@ -1,0 +1,18 @@
+AUTHOR:
+Phong Nguyen
+
+PURPOSE:
+This program creates a kd-tree from given random values.
+
+BUILD INFO:
+Build this program using
+'make compile'
+
+INPUT:
+The simulation takes a random number from standard input.
+
+USAGE:
+./kd (dimensions) (pointCount) (probeCount)
+
+OUTPUT:
+Console prints out the a leaf nodes contents based on a probes points. It will display the amount of points in that bucket and the probe point itself.
