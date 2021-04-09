@@ -1,0 +1,11 @@
+PURPOSE:
+This program creates a ternary tree from given random values.
+BUILD INFO:
+Build this program using
+'make comp'
+INPUT:
+The simulation takes a random number from an outside source. (in this case randGen.pl)
+USAGE:
+ternary (NUMPOINTS)
+OUTPUT:
+Console prints out in the format of (left child tree) A (middle child tree) B (right child tree)
